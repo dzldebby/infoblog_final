@@ -1,14 +1,35 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Infoblog</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
+  <head>
+  <head>
+      <Title> Debby's </title>
+      <link rel="stylesheet" href="css/application.css">
 
-<%= yield %>
 
-</body>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= csrf_meta_tags %>
+
+  </head>
+
+  <body>
+  	<header id="main_navigation" class="clearfix">
+  	  <%= link_to "Debby", root_path, class: "name" %>
+    <nav>
+    <%= link_to "Articles", posts_path %>
+      <a href="aboutme.html">About Me</a>
+      <a href="#">Contact</a>
+    </nav>
+    </header>
+
+
+    <%= yield %>
+
+      <footer id ="main_footer">
+    <p class="copyright">&copy; 2016 Debby Ling </p>
+    <nav>
+    	<a href="http://www.twitter.com"><i class="fa fa-twitter"></i></a>
+    </nav>
+
+  </body>
 </html>
