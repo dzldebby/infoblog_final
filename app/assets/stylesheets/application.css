@@ -48,3 +48,7 @@ $border: #E9E9E9;
       margin: 0 1rem;
       font-size: 1rem;
     }
+
+@import 'welcome';
+@import 'posts_projects';
+@import 'pygments';
