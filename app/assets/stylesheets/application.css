@@ -1,0 +1,50 @@
+
+$dark: #424652;
+$light: #9a9da4;
+$highlight: #8bc6db;
+$border: #E9E9E9;
+
+.wrapper {
+  width: 90%
+ }
+
+ .skinny_wrapper {
+ 	width: 80%;
+ 	max-width: 760px;
+ 	margin: 0 auto;
+
+ }
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+#main_navigation {
+  padding: 2.5em 5%;
+}
+
+  .name {
+  padding: 2.5em 5%;
+  border-bottom: 2px solid black;
+  font-weight: 700;
+  font-size: 2em;
+  text-transform: uppercase;
+  padding: 0.75em 1rem;
+  text-decoration: none;
+  color: black;
+  float: left;
+  letter-spacing: 2px;
+  }
+
+  nav {
+  float: right;
+  padding-top: 1.5rem;
+  }
+    a {
+      color: $dark;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-size: 1rem;
+    }
