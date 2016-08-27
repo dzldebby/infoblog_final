@@ -53,3 +53,7 @@ group :development do
   gem 'spring'
 end
 
+gem 'paperclip', '~> 3.0'
+gem 'paperclip-meta'
+
+
