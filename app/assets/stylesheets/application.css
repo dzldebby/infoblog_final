@@ -1,11 +1,15 @@
 
+html, body {
+	font-family: 'Raleway', sans-serif;
+}
+
 $dark: #424652;
 $light: #9a9da4;
 $highlight: #8bc6db;
 $border: #E9E9E9;
 
 .wrapper {
-  width: 90%
+  width: 80%
  }
 
  .skinny_wrapper {
@@ -21,8 +25,28 @@ $border: #E9E9E9;
   display: table;
 }
 
+.posttitle {
+
+  margin: 30px;
+  text-align: center;
+}
+
+#content {
+  margin: 30px;
+
+}
+
+.welcomepagecontent {
+  margin: 30px;
+}
+
 #main_navigation {
   padding: 2.5em 5%;
+}
+
+h1 {
+  border-top: 2.5em;
+
 }
 
   .name {
@@ -49,3 +73,6 @@ $border: #E9E9E9;
       font-size: 1rem;
     }
 
+.content {
+  color: red;
+}
