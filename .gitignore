@@ -25,5 +25,14 @@ logs
 public/uploads
 tmp
 logs
+<<<<<<< HEAD
+public/uploads
+tmp
+logs
+public/uploads
+tmp
+logs
+=======
 =======
 >>>>>>> d5d432a... initial
+>>>>>>> 48b83fb5684d3986ee10099e27de4b8d2d98eb39
